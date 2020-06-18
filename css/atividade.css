@@ -1,0 +1,221 @@
+body 
+{
+    font-family: Arial;
+    background-color: lavender;
+    color: #414246;    
+}
+
+h1
+{   
+	color: black;
+	text-shadow: 2px 2px black;
+}
+
+h2
+{font-size: 20pt}
+
+h3
+{font-size: 18pt}
+
+h4
+{font-size: 15pt}
+
+h5
+{		
+	font-size: 30pt;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: "Times New Roman";
+}	
+h6
+{
+	font-size: 18pt;
+	text-align: center;
+}
+	
+a:link {color: green;}
+
+a:visited {color: brown;}
+
+a:hover {color: pink;}
+
+a:active {background-color: black;}
+
+big
+{	
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: italic;
+	text-align: left;
+	font-family: Verdana;
+}
+
+p
+{font-size: 12pt;}
+
+small 
+{	font-size: 6pt;
+	font-family: "Times New Roman";
+	text-align: right;
+}
+
+code 
+{font-family: Courier;}
+
+ul 
+{	
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+
+ol 
+{
+	display: block;
+	list-style-type: upper-roman;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 40px;
+}
+
+span
+{
+	font-size: 24pt;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+cite
+{
+	font-size: 10pt;
+	font-style: italic;
+	font-family: Arial;
+}
+
+
+/*
+The layout for the rest of this css is a modified version from:
+http://www.maxdesign.com.au/articles/process/
+
+Students are encouraged to read this article.  Great explanation of some sound design concepts with attractive examples provided.
+
+You can cut and paste this at the bottom of your existing css file, and when used in conjunction with the css_layout.html file you unzipped, can wrap your pages into this site.
+*/
+
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background: #F4F4F4;
+}
+
+#header
+{
+	background: #A3A3A3;
+	padding: 20px;
+}
+
+#header h1
+ { 
+	margin: 0;
+	display: inline;
+}
+
+#header img
+{ 
+	vertical-align: middle;
+	width: 150px;
+}
+
+#sites
+{
+	display: inline-block;
+	/*float: left;*/
+	width: 100%;
+	/*width: 1200px;*/
+	background: #191919;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #F2F2F2;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#sites li a:hover { 
+	background-color: #B7B7B7; 
+	color: #191919;
+}
+
+#navigation
+{
+	display: inline-block;
+	vertical-align: top;
+	/*clear: left;*/
+	/*float: left;*/
+	/*display: inline;*/
+	width: 240px;
+	padding: 10px 0;
+	margin: 0 20px 0 0;
+}
+
+#navigation h3 { margin: 0; }
+
+#content-container
+{
+	/*float: left;*/
+	/*width: 1200px;*/
+	background-color: #E1F1F8;
+	background-image: url(../images/styles/background.png);
+	/* go up a directory, and then work down into images/styles directory */
+	background-repeat: repeat-y;
+	
+}
+
+#content
+{
+	display: inline-block;
+	/*float: right;*/
+	width: 860px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	/*display: inline;*/
+}
+
+#content h2 { margin: 0; }
+
+#footer
+{
+	clear: both;
+	background: #B7B7B7;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+#footer img{
+	vertical-align: middle;
+}
